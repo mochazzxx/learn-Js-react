@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>demo2</title>
+<title>demo4</title>
 <script src="../build/react.js"></script>
 <script src="../build/react-dom.js"></script>
 <script src="../build/browser.min.js"></script>
 </head>
 <body>
 <script type="text/babel">
-var names=['liujun','dingyiming','liucc'];
-ReactDOM.render(
-	<div>
-	{
-		names.map(function(name){
-			return <h1>hello,{name}!</h1>
-		})
+var HelloMessage=React.createClass({
+	render:function(){
+		return (
+			<h1>hello,{this.props.name}</h1>
+		);
 	}
-	</div>,document.body
+});
+ReactDOM.render(
+	<HelloMessage name="cicalafe" />,document.body
 );
 </script>
 </body>
