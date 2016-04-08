@@ -24,3 +24,17 @@
 
 * [文档](http://reactjs.cn/react/docs/tutorial.html)
 
+### 一串示例
+
+> 配合leanCloud 开发 react
+> https://github.com/dingyiming/ReactLeanCloud-Init
+
+* master分支  只用react
+* add-react-router 分支  只加入 react 和 react-router
+* add-antd 分支  只加入 react 和 ant.design
+* add-redux 分支 只加入 react 和 redux 
+* add-reqwest 分支 只加入 react 和 redux 和 reqwest
+* add-echart 分支 加入 echart 折线图
+* add-antd-waterfall 分支 加入antd + 瀑布流
+* react-LeanCloud-Init 整合完善
+
