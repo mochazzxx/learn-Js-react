@@ -18,9 +18,6 @@ https://www.v2ex.com/t/242209#reply3
 *  ant react组件
 https://github.com/react-component
 
-* React 让你不爽了么？
-https://github.com/ReactDemos/react-makes-you-sad
-
 *  React+Webpack快速上手指南
 http://www.jianshu.com/p/418e48e0cef1
 
